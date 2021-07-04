@@ -1,15 +1,49 @@
 
-.header wrapper{
+.header-wrapper{
 
-    display: block;
+    display: flex;
+    position:relative;
     background-color: aquamarine;
-    position: relative;
 
 
 }
+.for-logo{
+    display: flex;
+    position: relative;
+    left: 5%;
 
+
+}
 .logotip{
-
-    height:50px;
+    display:flex;
+    height:40px;
     position:relative;
+}
+.menu{
+    display: flex;
+    position: relative;
+    right: -80%;
+
+
+}
+.bell{
+    display:flex;
+
+    position:relative;
+    cursor:pointer;
+    top: 10%;
+
+}
+svg:hover{
+  fill:lightblue;
+}
+
+.for-text{
+
+
+    display:grid;
+    align-content:  center;
+    justify-items: center;
+    min-height: 100vh;
+
 }
