@@ -1,0 +1,15 @@
+
+.header wrapper{
+
+    display: block;
+    background-color: aquamarine;
+    position: relative;
+
+
+}
+
+.logotip{
+
+    height:50px;
+    position:relative;
+}
