@@ -158,18 +158,21 @@ p {
     display:flex;
     position: fixed;
     bottom:20px;
-    left:80%;
+    right:0px;
 
 
 }
 .message{
-    display:block;
+    display:flex;
     width:350px;
     margin:10px;
-    min-height: 50px;
+    min-height: 60px;
     opacity:0.9;
     text-align: center;
-
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding:10px;
 }
 #red{
     background-color: #FF7373;
@@ -185,4 +188,5 @@ p {
 }
 notification-msg-wrp{
     display:flex;
+
 }
