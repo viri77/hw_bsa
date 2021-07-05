@@ -114,11 +114,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-@media screen and (max-width: 1080px) {
-    .headline-wrapper {
-        width: 90%;
-    }
-}
+
 
 /*------------------------*/
 .avatar-component-container{
@@ -165,29 +161,52 @@ p {
 }
 .message{
     display:flex;
-    width:350px;
+    width:300px;
     margin:10px;
     min-height: 80px;
     opacity:0.8;
-    text-align: center;
+    /*text-align: center;*/
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    padding:10px;
+    padding:10px ;
 }
-#red{
+.red{
     background-color: #FF7373;
 }
-#yellow{
+.yellow{
     background-color: #FFDE00;
 }
-#green{
+.green{
     background-color: #26972D;
 }
-#brown{
+.brown{
     background-color: brown;
 }
 notification-msg-wrp{
     display:flex;
 
+}
+.image-wrp{
+    display:flex;
+    margin:10px;
+}
+ .green svg{
+    fill:white;
+}
+ .red svg{
+     fill:white;
+ }
+ .yellow svg{
+     fill:white;
+ }
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+    .headline-wrapper {
+        width: 90%;
+    }
 }
