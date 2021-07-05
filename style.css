@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body,html{
     display:block;
@@ -12,23 +13,26 @@ body,html{
     -webkit-font-smoothing: antialiased;
     width: 100%;
 }
+
+
 .header-wrapper{
 
     display: flex;
+
     justify-content: space-between;
     background-color: aquamarine;
 
     margin: 0 auto;
     padding-left: 22px;
     padding-right: 22px;
+    /*box-sizing: border-box;*/
 }
 
 
 
 .for-logo{
-    /*display: flex;
-    position: relative;
-    left: 5%;*/
+    padding-left: 20px;
+    display: flex;
 
 
 }
@@ -37,26 +41,30 @@ body,html{
     height:40px;
     position:relative;
 }
-.menu{
+.menu-nav{
     display: flex;
     position: relative;
-   /* right: -80%;*/
 
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
 
 }
 .bell{
     display:flex;
     height:40px;
     cursor:pointer;
+    margin-right: 10px;
 
 
 }
 svg{
-   fill:lightblue;
+   fill:cornflowerblue;
+    opacity: 0.5;
 
 }
 svg:hover{
-  fill:cornflowerblue;
+    opacity:1;
 }
 
 .for-text{
@@ -97,7 +105,7 @@ h1 {
     line-height: 28px;
 }
 
-}
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -110,3 +118,39 @@ p {
         width: 90%;
     }
 }
+
+/*------------------------*/
+.avatar-component-container{
+
+    position:relative;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.avatar-component-container {
+    width: 30px;
+    height: 30px;
+    background-color: cornflowerblue;
+    color: #000;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.25rem;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    line-height: 1;
+    opacity:0.5;
+    user-select: none;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    cursor:pointer;
+    margin-left: 10px;
+}
+.avatar-component-container:hover{
+    opacity:1;
+}
+
+/*------------------*/
